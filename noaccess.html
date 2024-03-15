@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Under Maintenance</title>
+<title>Access Denied</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 <link rel="icon" href="undermaintenance.ico" type="image/x-icon">
 <style>
@@ -56,7 +56,7 @@
   }
 
   a {
-    color: #fe820f;
+    color: #e74c3c; /* Changed color to red */
     text-decoration: none;
     font-weight: bold;
   }
@@ -68,14 +68,14 @@
   .decor-line {
     width: 300px;
     height: 2px;
-    background-color: #fe820f;
+    background-color: #e74c3c; /* Changed color to red */
     margin: 20px auto;
   }
 
   .decor-bar {
     width: 100%;
     height: 10px;
-    background-color: #fe820f;
+    background-color: #e74c3c; /* Changed color to red */
     animation: wipe 1s ease-in-out;
   }
 
@@ -95,30 +95,24 @@
   .try-again button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #fe820f;
+    background-color: #e74c3c; /* Changed color to red */
     color: #fff;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  .try-again button:hover {
-    background-color: #e57300;
   }
 </style>
 </head>
 <body>
 <div class="container">
   <div class="decor-bar"></div>
-  <h1>The Orange Squad service is currently under maintenance</h1>
+  <h1>Access Denied</h1>
   <div class="decor-line"></div>
   <p>
-    Hey there! We're sorry for the inconvenience, but we're currently working hard to improve your experience. Please bear with us, and we'll be back shortly. In the meantime, you can join our <a href="https://discord.gg/9XTyEPy7Dj" target="_blank">official Discord Server</a> and check the announcements channel for updates.
+    Sorry, you don't have permission to access this resource. Please contact the administrator for assistance or try again later. If you think this is a mistake, please contact us at the <a href="https://discord.gg/9XTyEPy7Dj" target="_blank">official Discord Server</a> for help.
   </p>
   <div class="decor-line"></div>
   <div class="try-again">
-    <button onclick="window.location.reload();">Try Again</button>
+    <button>Try Again</button> <!-- Disabled button -->
   </div>
 </div>
 </body>
